@@ -1,0 +1,22 @@
+// Import from styles scss
+@import "../../styles.scss";
+
+$heading-color: #141c3a;
+
+.body{
+    display: flex;
+    padding: 40px 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-container{
+    display: flex;
+}
+
+.heading{
+    h1{
+        color: $heading-color;
+        font-family: "eurostile", sans-serif;;
+    }
+}
